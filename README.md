@@ -8,7 +8,6 @@
    [18352번: 특정 거리의 도시 찾기 (acmicpc.net)](https://www.acmicpc.net/problem/18352)
 
 2. 경쟁적 전염(실버1, 정답율: 28%)
-
    [18405번: 경쟁적 전염 (acmicpc.net)](https://www.acmicpc.net/problem/18405)
 
 3. 연산자 끼워넣기(실버1, 정답율: 49%)
@@ -17,7 +16,6 @@
    참고로 이것을 DFS/BFS가 아닌 다른 방법으로 풀었던 거 같음...
 
 4. 트리의 부모 찾기(실버2, 정답율: 42%)
-
    [11725번: 트리의 부모 찾기 (acmicpc.net)](https://www.acmicpc.net/problem/11725)
 
 
