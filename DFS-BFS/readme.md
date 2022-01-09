@@ -27,7 +27,7 @@ Depth-First-Search, 깊이 우선 탐색. 그래프*의 깊은 부분을 우선�
 
 ### 설명
 
-<img src="https://github.com/algojunior/KYJ/blob/main/DFS-BFS/dfsPhoto.jpg?raw=true" style="zoom:40%;" />
+<img src="https://github.com/algojunior/KYJ/blob/main/DFS-BFS/dfsPhoto.jpg?raw=true" style="zoom:30%;" />
 
 1부터 시작해 깊이 우선 탐색 만듦. 하지만 스택을 대신 **재귀 함수**를 사용해 스택의 효과를 만듦
 
@@ -84,7 +84,7 @@ dfs(graph, 1, visited)
 
 조건은 DFS와 같다.
 
-<img src="https://github.com/algojunior/KYJ/blob/main/DFS-BFS/dfsPhoto.jpg?raw=true" style="zoom:50%;" />
+<img src="https://github.com/algojunior/KYJ/blob/main/DFS-BFS/dfsPhoto.jpg?raw=true" style="zoom:30%;" />
 
 ### 코드
 
