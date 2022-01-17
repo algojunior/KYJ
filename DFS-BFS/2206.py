@@ -21,8 +21,8 @@ def str2tpList(st):
     return lst
 
 def bfs(graph):
-    da = [-1,1,0,0]
-    db = [0,0,-1,1]
+    da = [1,0,0,-1] #하 우 좌 상
+    db = [0,+1,-1,0]
     global n, m
     answer  = 100000000
     answerArr = []
