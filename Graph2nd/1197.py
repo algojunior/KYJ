@@ -1,12 +1,11 @@
-from queue import PriorityQueue
 import sys
 input = sys.stdin.readline
-n = int(input())
-m = int(input())
-edge = PriorityQueue()
+n, m = map(int, input().split())
+
+edge = []
 for i in range(m):
     a,b,c = map(int, input().split())
-    edge.put((c,a,b))
+    edge.append((c,a,b))
 
 parent = []
 for i in range(n+1):
@@ -25,13 +24,12 @@ def unionNode(parent, a, b):
     else:
         parent[a] = b
 
+edge.sort()
 answer = 0
-while True:
-    if sum(parent) == n:
-        print(answer)
-        exit()
-    nowScore, nowa, nowb = edge.get()
+for i in edge:
+    nowScore, nowa, nowb = i
     if find_parent(parent, nowa) != find_parent(parent, nowb):
         unionNode(parent, nowa, nowb)
         answer+=nowScore
 
+print(answer)
